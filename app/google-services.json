@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1024949414985",
+    "firebase_url": "https://greenvendors-2458a.firebaseio.com",
+    "project_id": "greenvendors-2458a",
+    "storage_bucket": "greenvendors-2458a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024949414985:android:9937ba2dcadd50bd",
+        "android_client_info": {
+          "package_name": "com.example.greenvendors"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024949414985-thbj19797lufupohr49o7gidvk2ip9fu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.greenvendors",
+            "certificate_hash": "f12bf93d587c9d13be8d8a6efec877ef36d77837"
+          }
+        },
+        {
+          "client_id": "1024949414985-f1rvu8v5pnl4tu54r4fl16ibhlf2t0pf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEcHdfMCxMb4CxviLLbed5mv4MsY_4YWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024949414985-f1rvu8v5pnl4tu54r4fl16ibhlf2t0pf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
