@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/menu_item4"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/dash_board"/>
     <item
         android:id="@+id/menu_item1"
         android:icon="@drawable/ic_account_box_black_24dp"
@@ -11,6 +17,7 @@
     <item
         android:id="@+id/menu_item3"
         android:icon="@drawable/ic_search_black_24dp"
-        android:title="@string/search"/>
+        android:title="@string/search"
+        />
 
 </menu>

@@ -1,15 +1,17 @@
 <resources>
     <string name="app_name">Green Vendors</string>
     <string name="kindly_input_your_phone_number" />
-    <string name="register" />
     <string name="kindly_enter_verification_code_here" />
-    <string name="todo">TODO</string>
     <string name="log_in" />
-    <string name="home_fragment">Home Fragment</string>
-    <string name="search_fragment">Search Fragment</string>
     <string name="account">Account</string>
-    <string name="favorites_fragment">Favorites Fragment</string>
     <string name="cart">Cart</string>
     <string name="search">Search</string>
     <string name="todo">TODO</string>
+    <string name="search_fragment">Search Fragment</string>
+    <string name="favorites_fragment">Favorites Fragment</string>
+    <string name="dash_board">Dash board</string>
+    <string name="register">Register</string>
+    <string name="already_registered_log_in">Already registered, Log in</string>
+
+
 </resources>
