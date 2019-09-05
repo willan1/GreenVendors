@@ -16,7 +16,11 @@
     <string name="welcome_to_green_vendors">Welcome to Green Vendors</string>
     <!--<string name="todo">TODO</string>-->
     <string name="plus">+</string>
-    <string name="minus">0</string>
+    <string name="minus">-</string>
+    <string name="zero">0</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="total_ksh">Total Ksh   =</string>
+    <string name="anotherzero">0</string>
 
 
 </resources>
