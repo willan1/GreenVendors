@@ -6,12 +6,17 @@
     <string name="account">Account</string>
     <string name="cart">Cart</string>
     <string name="search">Search</string>
-    <string name="todo">TODO</string>
     <string name="search_fragment">Search Fragment</string>
     <string name="favorites_fragment">Favorites Fragment</string>
     <string name="dash_board">Dash board</string>
     <string name="register">Register</string>
     <string name="already_registered_log_in">Already registered, Log in</string>
+    <string name="todo">TODO</string>
+    <string name="providers_of_organic_veges">Providers of Organic Veges</string>
+    <string name="welcome_to_green_vendors">Welcome to Green Vendors</string>
+    <!--<string name="todo">TODO</string>-->
+    <string name="plus">+</string>
+    <string name="minus">0</string>
 
 
 </resources>

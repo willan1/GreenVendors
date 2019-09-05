@@ -1,8 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Kunde">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/home"
+        android:layout_centerInParent="true"
+        android:id="@+id/image"
+        android:contentDescription="@string/todo" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/plus"
+        android:layout_marginTop="50sp"
+        android:layout_below="@+id/image"
+        android:id="@+id/plus"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:layout_marginTop="50sp"
+        android:layout_below="@id/image"
+        android:text="@string/minus"
+        android:layout_alignRight="@id/plus"
+        android:layout_alignEnd="@id/plus" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/text"
+        android:layout_marginTop="50sp"
+        android:layout_below="@id/image"
+        android:id="@+id/minus"
+        android:layout_alignEnd="@id/text" />
+
+
+
+
+
+</RelativeLayout>

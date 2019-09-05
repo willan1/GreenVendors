@@ -5,40 +5,40 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/r"
-        android:layout_above="@id/number"
-        android:contentDescription="@string/todo" />
 
-    <EditText
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/number"
-        android:hint="@string/kindly_input_your_phone_number"
-        android:layout_marginTop="130sp"
-        android:layout_marginBottom="20sp"
-        android:layout_marginLeft="20sp"
-        android:layout_marginRight="20sp"
-        android:layout_centerInParent="true"
-        android:inputType=""
-        android:autofillHints="Number" />
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/register"
-        android:text="@string/register"
+        android:text="@string/welcome_to_green_vendors"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:layout_marginTop="30sp"
         android:layout_centerHorizontal="true"
-        android:layout_margin="10sp"
-        android:layout_below="@+id/number"/>
-    <Button
+        android:id="@+id/tx1"
+        />
+
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/pass"
-        android:text="@string/already_registered_log_in"
-        android:layout_below="@id/register"
+        android:text="@string/providers_of_organic_veges"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:layout_marginTop="30sp"
         android:layout_centerHorizontal="true"
-        android:layout_margin="50sp"/>
+        android:layout_below="@id/tx1"
+        />
+
+
+    <com.google.android.gms.common.SignInButton
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/SignInButton"
+    android:layout_centerInParent="true">
+    </com.google.android.gms.common.SignInButton>
+
 
 </RelativeLayout>

@@ -1,3 +1,4 @@
+//noinspection GradleCompatible
 apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services'
 
@@ -29,5 +30,12 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation 'com.google.firebase:firebase-auth:18.1.0'
     implementation 'com.google.android.material:material:1.0.0-rc01'
-
+    implementation 'com.google.android.gms:play-services-auth:17.0.0'
+    implementation 'com.github.bumptech.glide:glide:4.8.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
+    implementation 'com.github.bumptech.glide:glide:4.8.0'
+    implementation 'com.android.volley:volley:1.1.0'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.android.support:appcompat-v7:29.0.0'
+    implementation 'com.android.support:cardview-v7:29.1.0'
 }

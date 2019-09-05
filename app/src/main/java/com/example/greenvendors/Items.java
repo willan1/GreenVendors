@@ -1,25 +1,19 @@
 package com.example.greenvendors;
+import android.os.Bundle;
+import android.view.MenuItem;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.MenuItem;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.LinearLayout;
-import android.widget.ListView;
-import android.widget.TextView;
-import android.widget.Toast;
-
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-
-import java.util.ArrayList;
 
 public class Items extends AppCompatActivity {
 
-    int desertNumber;
+//    int desertNumber;
+//    private GoogleApiClient googleApiClient;
+//    private GoogleSignInOptions gso;
+
 
 
     @Override
@@ -29,6 +23,14 @@ public class Items extends AppCompatActivity {
 
         BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
         bottomNav.setOnNavigationItemSelectedListener(navListener);
+//        gso =  new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+//                .requestEmail()
+//                .build();
+//
+//        googleApiClient=new GoogleApiClient.Builder(this)
+//                .enableAutoManage(this,this)
+//                .addApi(Auth.GOOGLE_SIGN_IN_API,gso)
+//                .build();
 
 
 
@@ -70,4 +72,9 @@ public class Items extends AppCompatActivity {
     };
 
 
+
+//    @Override
+//    public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
+//
+//    }
 }

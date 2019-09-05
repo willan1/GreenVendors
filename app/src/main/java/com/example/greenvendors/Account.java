@@ -32,10 +32,10 @@ public class Account extends Fragment {
         final ArrayList<String> accountitems = new ArrayList<>();
 
         accountitems.add("Log Out");
-        accountitems.add("Donut");
-        accountitems.add("Donut");
-        accountitems.add("Donut");
-        accountitems.add("Donut");
+        accountitems.add("DFDF");
+        accountitems.add("HG");
+        accountitems.add("NGNGN");
+        accountitems.add("GHGNGNG");
         accountitems.add("Donut");
         accountitems.add("Donut");
         accountitems.add("Donut");
@@ -65,13 +65,13 @@ public class Account extends Fragment {
                         Intent intent= new Intent(getActivity(), MainActivity.class);
                         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                         startActivity(intent);
-//                        Intent donut = new Intent(getActivity(), Kunde.class);
-//                        startActivity(donut);
-//                        break;
-//                    case 1:
-//                        Intent cookie = new Intent(getActivity(), Managu.class);
-//                        startActivity(cookie);
-//                        break;
+                       //Intent donut = new Intent(getActivity(), Kunde.class);
+                     // startActivity(donut);
+                       break;
+                    case 1:
+                        Intent cookie = new Intent(getActivity(), Managu.class);
+                        startActivity(cookie);
+                        break;
 
                 }
             }
